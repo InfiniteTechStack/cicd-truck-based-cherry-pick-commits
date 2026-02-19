@@ -6,3 +6,4 @@ resources:
 replicas:
   - count: 0
     name: hello-api
+
