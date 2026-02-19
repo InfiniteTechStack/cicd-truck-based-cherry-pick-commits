@@ -54,7 +54,7 @@ ENTRYPOINT ["/app/app"]
 ## build the application
 docker buildx build \
     --platform linux/amd64,linux/arm64 \
-    -t <docker-hub-user-name>/hello-api:221fbf9 \
+    -t <docker-hub-user-name>/hello-api:65b2a64 \
     ./hello-api
 
 ## docker login with token
