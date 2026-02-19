@@ -114,7 +114,7 @@ export DOCKERHUB_PAT=<pat-token>
 kubectl create ns apps
 kubectl create secret -n apps docker-registry image-pull-secret \
   --docker-server=https://index.docker.io/v1/ \
-  --docker-username=<docker-hub-user-name> \
+  --docker-username=devops022 \
   --docker-password=$DOCKERHUB_PAT
 ```
 
