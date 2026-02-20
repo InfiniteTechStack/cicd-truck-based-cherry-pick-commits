@@ -11,7 +11,7 @@
 ## Step 1: Create a Release/Hotfix Branch from Production Commit
 
 ```bash
-git checkout -b release/v-1.0.1 <prod-commit-id> # commit-id from overlay kustomization.yaml
+git checkout -b hotfix/v-1.0.1 <prod-commit-id> # commit-id from overlay kustomization.yaml
 ```
 
 - Fix the bug in `main.go` - example Change the data in `line-24`
